@@ -39,7 +39,7 @@ async function RefreshIDsFunction() {
 
 let callback = (element, index, array) => {
     fetch(
-        `https://api-m.sandbox.paypal.com/v1/notifications/transaction-notifications/${element}`, // Use sandbox endpoint for testing
+        `https://api-m.paypal.com/v1/notifications/transaction-notifications/${element}`,
         {
             method: "POST",
             headers: {
