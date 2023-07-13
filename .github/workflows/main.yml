@@ -13,7 +13,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2 # Use the setup-node action to install node
         with:
-          node-version: '14' # Specify the node version to use
+          node-version: '16' # Specify the node version to use
       - name: Install dependencies
         run: npm install # Install the dependencies from package.json
       - name: Run code
