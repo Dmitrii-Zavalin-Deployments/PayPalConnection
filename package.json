@@ -1,0 +1,24 @@
+{
+  "name": "paypalreceiptssending",
+  "version": "1.0.0",
+  "description": "Runs on schedule and sends receipts to clients who bought something using PayPal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dmitrii-Zavalin-Deployments/PayPalReceiptsSending.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmitrii-Zavalin-Deployments/PayPalReceiptsSending/issues"
+  },
+  "homepage": "https://github.com/Dmitrii-Zavalin-Deployments/PayPalReceiptsSending#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "node-fetch": "^2.6.6",
+    "pantry-node": "^0.1.3"
+  }
+}
